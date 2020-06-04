@@ -31,7 +31,7 @@ echo "Old set of branches"
 git --no-pager branch -a -vv
 
 
-COMMAND="git branch -d $BRANCH"
+COMMAND="git branch -D $BRANCH"
 echo $COMMAND
 GO_TO_OBJECT=$(sh -c "$COMMAND")
 
